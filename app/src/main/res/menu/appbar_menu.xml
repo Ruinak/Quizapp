@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionRankView"
+        android:title="전체순위보기"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/actionMyView"
+        android:title="내정보보기"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/actionLogout"
+        android:title="로그아웃"
+        app:showAsAction="never"/>
+
+</menu>
