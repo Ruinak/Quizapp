@@ -27,9 +27,7 @@ public class ForWordActivity extends BasicActivity {
     private Button btnIndex0, btnIndex1, btnIndex2, btnNext, btnOut;
     private FirebaseFirestore database;
     private String answer, bScore, facForWordPath;
-    private int index = 1;
-    private int grade = 0;
-    private int score;
+    private int index = 1, grade = 0, score;
 
     private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 

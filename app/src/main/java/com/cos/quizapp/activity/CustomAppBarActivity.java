@@ -39,16 +39,13 @@ public class CustomAppBarActivity extends AppCompatActivity {
                 startMyActivity(MainActivity.class);
                 return true;
             case R.id.actionRankView:
-                Log.d(TAG, "onOptionsItemSelected: 랭킹보기 클릭됨");
                 startMyActivity(UserListActivity.class);
                 return true;
             case R.id.actionLogout:
-                Log.d(TAG, "onOptionsItemSelected: 로그아웃 클릭됨");
                 FirebaseAuth.getInstance().signOut();
                 startMyActivity(MainActivity.class);
                 return true;
             case R.id.actionMyView:
-                Log.d(TAG, "onOptionsItemSelected: 내정보 보기 클릭됨");
                 startMyActivity(UserInfoActivity.class);
                 return true;
             default:

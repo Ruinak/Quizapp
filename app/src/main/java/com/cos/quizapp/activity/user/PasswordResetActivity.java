@@ -42,7 +42,6 @@ public class PasswordResetActivity extends BasicActivity {
 
     private void initLr() {
         btnSend.setOnClickListener(v -> {
-            Log.d(TAG, "initData: 클릭됨");
             Send();
         });
         btnGoLogin.setOnClickListener(v -> {

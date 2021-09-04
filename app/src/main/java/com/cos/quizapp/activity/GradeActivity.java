@@ -13,7 +13,6 @@ public class GradeActivity extends BasicActivity {
 
     private TextView tvGrade;
     private Button btnGoMain;
-
     private int Grade;
 
     @Override
@@ -22,7 +21,6 @@ public class GradeActivity extends BasicActivity {
         setContentView(R.layout.activity_grade);
 
         init();
-        initData();
         initLr();
     }
 
@@ -39,10 +37,6 @@ public class GradeActivity extends BasicActivity {
         btnGoMain.setOnClickListener(v ->{
             startMyActivity(MainActivity.class);
         });
-    }
-
-    public void initData() {
-        Log.d(TAG, "grade: "+ Grade);
     }
 
     private void startMyActivity(Class c){

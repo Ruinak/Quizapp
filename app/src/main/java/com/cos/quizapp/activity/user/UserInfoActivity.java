@@ -54,7 +54,6 @@ public class UserInfoActivity extends BasicActivity {
                     DocumentSnapshot document = task.getResult();
                     if (document != null) {
                         if (document.exists()) {
-                            Log.d(TAG, "DocumentSnapshot data: " + document.getData());
                             tvName.setText(document.getData().get("name").toString());
                             tvPhoneNumber.setText(document.getData().get("phoneNumber").toString());
                             tvBirthday.setText(document.getData().get("birthDay").toString());

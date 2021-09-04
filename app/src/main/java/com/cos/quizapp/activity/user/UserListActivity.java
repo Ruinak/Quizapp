@@ -1,6 +1,5 @@
 package com.cos.quizapp.activity.user;
 
-import android.content.Intent;
 import android.os.Bundle;
 import com.cos.quizapp.R;
 import com.cos.quizapp.activity.CustomAppBarActivity;

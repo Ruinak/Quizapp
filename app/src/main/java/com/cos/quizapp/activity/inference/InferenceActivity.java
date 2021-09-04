@@ -32,9 +32,7 @@ public class InferenceActivity extends BasicActivity {
     private String answer, solution, bScore, facInferencePath;
     private ScrollView scrollView;
     private TextInputEditText etAnswer;
-    private int index = 1;
-    private int grade = 0;
-    private int score;
+    private int index = 1, grade = 0, score;
 
     private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 

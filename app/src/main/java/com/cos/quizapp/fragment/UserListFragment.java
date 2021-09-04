@@ -116,7 +116,6 @@ public class UserListFragment extends Fragment {
                         userList.clear();
                     }
                     for (QueryDocumentSnapshot document : task.getResult()) {
-                        Log.d(TAG, document.getId() + " => " + document.getData());
                         userList.add(new UserInfo(
                                 document.getData().get("name").toString(),
                                 document.getData().get("phoneNumber").toString(),

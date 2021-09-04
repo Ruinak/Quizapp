@@ -47,7 +47,6 @@ public class UserInitActivity extends BasicActivity {
 
     private void initLr() {
         btnCheck.setOnClickListener(v -> {
-            Log.d(TAG, "initData: 클릭됨");
             profileUpdate();
         });
     }
